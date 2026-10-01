@@ -1,0 +1,13 @@
+name: My CI Action
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Info
+        run: |
+          echo "Hello from GitHub Actions!"
+          echo "Repository: ${{ github.repository }}"
+          echo "Run number: ${{ github.run_number }}"
