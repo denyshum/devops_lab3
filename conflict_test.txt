@@ -1,1 +1,1 @@
-Text from main branch
+Text from main and conflict_test branches
